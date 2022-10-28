@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Food Gallery</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body style="background-color: #7b3030">
+		<header>
+			<nav>
+				<img class="logo" src="images/foodgallerylogo.png">
+				<a class="navbar" href= "pages/more.html">MORE</a>
+				<a class="navbar" href= "pages/aboutus.html">ABOUT US</a>
+				<a class="navbar" href= "pages/Contacts.html">CONTACTS</a>
+				<a class="navbar active" href= "index.html">HOME</a>
+			</nav>
+		</header>
+		<h1 class="TitleText">TOP CRAVINGS</h1>
+			<img class="bgImage" src="images/loaded-fries-sharer.jpg">
+		<h1 style="color: #ffef6f; text-align:center">Pick a Craving!</h1>
+		<div class="imgcontain">
+			<div class="contain">
+				<a href="pages/desserts.html"><img src="images/foodgallerylogo (1).png" alt="desserts" style="width:100%"></a>
+			</div>
+			<div class="contain">
+				<a href="pages/meals.html"><img src="images/meals.png" alt="meals" style="width:100%"></a>
+			</div>
+			<div class="contain">
+				<a href="pages/beverages.html"><img src="images/drinks.png" alt="beverages" style="width:100%"></a>
+			</div>
+		</div>
+	</body>
+</html>
+.navbar{
+	text-decoration:none;
+	float:right;
+	margin-right:15px;
+	color:#7b3030;
+}
+.logo{
+	width:70px;
+}
+nav{
+	overflow:hidden;
+	background-color: #ffef6f;
+	padding-top:20px;
+	padding-bottom:10px;
+}
+.TitleText{
+	position:absolute;
+	top:30%;
+	left:20%;
+	font-size:150px;
+	color: #A9333A;
+	text-shadow:2px 2px black;
+}
+.bgImage{
+	width:100%;
+	height:700px;
+}
+.active{
+	color:orange;
+}
+ a:hover{
+	background-color: red;
+}
+.contain{
+	width:30%;
+	height:30%;
+	float:left;
+	margin-right:2%;
+}
+.imgcontain{
+	margin-left:130px;
+}
+
